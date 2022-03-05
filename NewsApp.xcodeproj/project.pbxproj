@@ -16,6 +16,7 @@
 		3628367327D3EF620062254A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628367227D3EF610062254A /* APICaller.swift */; };
 		3628367527D3F1F00062254A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628367427D3F1F00062254A /* Models.swift */; };
 		3628367727D3F64C0062254A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628367627D3F64C0062254A /* NewsTableViewCell.swift */; };
+		3628367927D3F7670062254A /* NewsTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628367827D3F7670062254A /* NewsTableViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3628367227D3EF610062254A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		3628367427D3F1F00062254A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		3628367627D3F64C0062254A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		3628367827D3F7670062254A /* NewsTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		3628365D27D3E6C30062254A /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				3628367827D3F7670062254A /* NewsTableViewCellViewModel.swift */,
 				3628365E27D3E6C30062254A /* AppDelegate.swift */,
 				3628366027D3E6C30062254A /* SceneDelegate.swift */,
 				3628366227D3E6C30062254A /* ViewController.swift */,
@@ -151,6 +154,7 @@
 				3628365F27D3E6C30062254A /* AppDelegate.swift in Sources */,
 				3628367727D3F64C0062254A /* NewsTableViewCell.swift in Sources */,
 				3628366127D3E6C30062254A /* SceneDelegate.swift in Sources */,
+				3628367927D3F7670062254A /* NewsTableViewCellViewModel.swift in Sources */,
 				3628367327D3EF620062254A /* APICaller.swift in Sources */,
 				3628367527D3F1F00062254A /* Models.swift in Sources */,
 			);

@@ -9,15 +9,33 @@ import UIKit
 
 class NewsTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+  //MARK: - Properties
+  static let identifier = "NewsTableViewCell"
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+  private let newsTitleLabel: UILabel = {
+    let label = UILabel()
+    return label
+  }()
 
-        // Configure the view for the selected state
-    }
+  override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
+  }
+
+  required init?(coder: NSCoder) {
+    fatalError()
+  }
+
+  override func layoutSubviews() {
+    super.layoutSubviews()
+
+  }
+
+  override func prepareForReuse() {
+    super.prepareForReuse()
+  }
+
+  func configure(with viewModel: NewsTableViewCellViewModel) {
+
+  }
 
 }
